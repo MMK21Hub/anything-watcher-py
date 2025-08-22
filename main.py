@@ -40,7 +40,7 @@ def main():
 
     while True:
         try:
-            leaderboard = fetch_data()
+            the_data = fetch_data()
             # TODO - Update metrics
             if args.verbose:
                 print(f"Successfully fetched data")
