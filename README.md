@@ -1,6 +1,15 @@
-# Anything Watcher
+# Prometheus exporter template (Python)
 
-Tracks something, providing Prometheus metrics that can be used to make dashboards like the demo below.
+This is a template to make a Prometheus exporter project (like [Daydream Watcher](https://github.com/MMK21Hub/daydream-watcher)) using Python and the `prometheus_client` library.
+
+## Using this template
+
+1. On GitHub, click the green "use this template" button in the top-right
+2. Pick a repository name and description. For consistency, you should name it `*-watcher` (e.g. `core-watcher`, `daydream-watcher`)
+3. Clone and open the repository in your preferred IDE
+4. Use your IDE's global find-and-replace feature to replace all occurrences of `anything-watcher` with your chosen project slug
+5. Delete this section and everything above it from the README, and replace it with your own project title and description
+6. Search for "TODO" across all files and address them by writing your own code
 
 ## Online demo
 
