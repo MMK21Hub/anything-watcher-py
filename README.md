@@ -13,11 +13,11 @@ This is a template to make a Prometheus exporter project (like [Daydream Watcher
 
 ## Online demo
 
-[![Screenshot of a Grafana dashboard stats from the program](screenshot.png)][1]
+[![Screenshot of Grafana dashboard stats from the program](screenshot.png)][demo]
 
-**[🌍 View dashboard on grafana.slevel.xyz][1]**
+**[🌍 View dashboard on grafana.slevel.xyz][demo]** <!-- TODO Replace the below with demo link (Grafana dashboard) -->
 
-[1]: TODO <!-- Add demo link here -->
+[demo]: https://example.com
 
 ## Local development
 
