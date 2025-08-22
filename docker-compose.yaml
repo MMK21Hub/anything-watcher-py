@@ -1,0 +1,6 @@
+services:
+  anything-watcher:
+    build: .
+    init: true
+    ports:
+      - 9000:9000
