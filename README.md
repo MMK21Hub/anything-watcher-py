@@ -8,8 +8,9 @@ This is a template to make a Prometheus exporter project (like [Daydream Watcher
 2. Pick a repository name and description. For consistency, you should name it `*-watcher` (e.g. `core-watcher`, `daydream-watcher`)
 3. Clone and open the repository in your preferred IDE
 4. Use your IDE's global find-and-replace feature to replace all occurrences of `anything-watcher` with your chosen project slug
-5. Delete this section and everything above it from the README, and replace it with your own project title and description
-6. Search for "TODO" across all files and address them by writing your own code
+5. Also find-and-replace (match whole word) the port number `9000`, changing it to something custom like `9030`
+6. Delete this section and everything above it from the README, and replace it with your own project title and description
+7. Search for "TODO" across all files and address them by writing your own code
 
 ## Online demo
 
