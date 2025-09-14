@@ -8,9 +8,10 @@ This is a template to make a Prometheus exporter project (like [Daydream Watcher
 2. Pick a repository name and description. For consistency, you should name it `*-watcher` (e.g. `core-watcher`, `daydream-watcher`)
 3. Clone and open the repository in your preferred IDE
 4. Use your IDE's global find-and-replace feature to replace all occurrences of `anything-watcher` with your chosen project slug
-5. Also find-and-replace (match whole word) the port number `9000`, changing it to something custom like `9030`
-6. Delete this section and everything above it from the README, and replace it with your own project title and description
-7. Search for "TODO" across all files and address them by writing your own code
+5. If you're someone other than [@MMK21Hub](https://github.com/MMK21Hub), you'll probably want to update instances of `mmk21` to match your own Docker Hub account (for publishing releases)
+6. Also find-and-replace (match whole word) the port number `9000`, changing it to something custom like `9030`
+7. Delete this section and everything above it from the README, and replace it with your own project title and description
+8. Search for "TODO" across all files and address them by writing your own code
 
 ## Online demo
 
@@ -51,6 +52,8 @@ scrape_configs:
 Start visualising the metrics by importing the example Grafana dashboard at [deployment/grafana-dashboard.json](deployment/grafana-dashboard.json) into your Grafana instance. -->
 
 ## Maintainers: Releasing a new version
+
+First, check [existing tags published to Docker Hub](https://hub.docker.com/r/mmk21/anything-watcher/tags) and decide what kind of version bump to make.
 
 Use the `release-new-version.sh` shell script, e.g.
 
