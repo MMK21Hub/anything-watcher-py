@@ -55,7 +55,7 @@ Start visualising the metrics by importing the example Grafana dashboard at [dep
 
 First, check [existing tags published to Docker Hub](https://hub.docker.com/r/mmk21/anything-watcher/tags) and decide what kind of version bump to make.
 
-Use the `release-new-version.sh` shell script, e.g.
+Then, use the `release-new-version.sh` shell script, e.g.
 
 ```bash
 ./release-new-version.sh 0.2.1
