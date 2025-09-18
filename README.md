@@ -32,7 +32,7 @@ This project uses Python (3.9+) and [uv](https://docs.astral.sh/uv/) for develop
 ## Production deployment with Docker Compose
 
 1. Download the example Compose file from [deployment/docker-compose.yml](deployment/docker-compose.yml). Feel free to adjust it to your needs.
-2. Start it with `docker-compose up -d`
+2. Start it with `docker compose up -d`
 3. Metrics should now be available at <http://localhost:9000/metrics>
 
 ### Example `prometheus.yml` config
