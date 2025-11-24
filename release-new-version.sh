@@ -63,7 +63,7 @@ else
   fi
 fi
 
-docker buildx build -t "$image:$version_tag" -t "$image:latest" --platform linux/amd64,linux/arm64 --push .
+docker buildx build -t "$image:$version_tag" -t "${image}:latest" --platform linux/amd64,linux/arm64 --push .
 if [[ $? -ne 0 ]]; then
   echo "Error: Docker build failed. See output above."
   exit 10
