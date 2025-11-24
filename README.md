@@ -23,7 +23,7 @@ This is a template to make a Prometheus exporter project (like [Daydream Watcher
 
 ## Local development
 
-This project uses Python (3.9+) and [uv](https://docs.astral.sh/uv/) for development.
+This project uses Python (3.10+) and [uv](https://docs.astral.sh/uv/) for development.
 
 1. Clone the repo
 2. `uv run main.py`
