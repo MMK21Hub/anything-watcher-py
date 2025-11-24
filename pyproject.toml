@@ -3,5 +3,5 @@ name = "anything-watcher"
 version = "0.0.0"
 description = "Prometheus metrics exporter for anything"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = ["prometheus-client>=0.22.1"]
